@@ -1,0 +1,65 @@
+body {
+	background-color: #000; 
+	color:#fff;
+	
+}
+
+.logo-img {
+	height: auto; 
+	width: 350px; 
+margin-top:40px; 
+  margin-bottom:40px; 
+	
+}
+
+.nav {
+	display: block;
+}
+
+li a {
+	color: #fff; 
+}
+
+li a:hover {
+	font-weight: bolder;
+	color: #fff; 
+	font-size: 20px; 
+}
+
+.fab {
+	font-size: 25px !important; 
+	margin: 15px; 
+	margin-top: 60px; 
+	margin-bottom: 50px; 
+}
+
+.input-group {
+  margin-bottom:10px; 
+}
+
+a {
+	color: #fff; 
+}
+
+a:hover {
+	color: #fff; 
+}
+
+form {
+	margin-top: 40px; 
+}
+
+input {
+	background-color: transparent!important;
+}
+
+#clockbox {
+	margin-top: 70px; 
+}
+
+
+.btn {
+	background-color: transparent!important;
+	border: 1px solid #fff; 
+	color: #fff; 
+}
