@@ -22,6 +22,10 @@
 /*************************Desk TOP Break Point **************************************/
 
 @media screen and (min-width: 1281px)  {
+
+	.logo-img {
+		width: 900px; 
+	}
   
 }
 
