@@ -1,0 +1,32 @@
+/*LAB TOP BREAK POINT*/
+
+@media screen and (min-width: 769px) {
+
+	.logo-img {
+	width: 700px; 
+	margin-top: 120px; 
+    margin-bottom:0; 
+
+	}
+
+	.nav {
+		display: flex; 
+	} 
+  
+  .fab {
+    font-size: 40px!important; 
+  }
+
+}
+
+/*************************Desk TOP Break Point **************************************/
+
+@media screen and (min-width: 1281px)  {
+  
+}
+
+/*************************Large Desk Top Break Point **************************************/
+
+@media screen and (min-width: 1920px) {
+  
+}
