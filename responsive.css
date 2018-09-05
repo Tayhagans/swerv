@@ -1,3 +1,81 @@
+/* Landscape iPhone 6 6s 7 8 */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+
+	.nav {
+		display: flex; 
+
+	}
+
+
+}
+
+/* Landscape iPhone 6+ 6s+ 7+ 8+ */
+
+	@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape){
+
+		.nav {
+		display: flex; 
+
+	}
+
+
+
+}
+
+/* ----------- iPhone X ----------- */
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait){
+
+	#clockbox 
+	{
+		margin-top: 100px; 
+	}
+
+}
+
+/* IPAD */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+	.nav {
+		display: flex; 
+
+	}
+
+	.logo-img {
+		width: 650px;
+		margin-top: 90px;  
+	}
+
+	#clockbox {
+		margin-top: 200px; 
+	}
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width:1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2){
+
+	.logo-img {
+		width: 1000px!important; 
+		margin-bottom: 70px!important; 
+	}
+
+	#clockbox {
+		margin-top: 300px; 
+		font-size: 25px; 
+	}
+
+	li a {
+		font-size: 25px; 
+	}
+
+}
+
+
 /*LAB TOP BREAK POINT*/
 
 @media screen and (min-width: 769px) {
