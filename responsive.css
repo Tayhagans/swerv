@@ -26,6 +26,14 @@
 	.logo-img {
 		width: 900px; 
 	}
+
+	#clockbox {
+		font-size: 20px; 
+	}
+
+	li a {
+	font-size: 20px; 
+}
   
 }
 
