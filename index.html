@@ -49,11 +49,12 @@
 </div>
 <div class="col-xs-3 col-sm-4"></div>
 <div class="col-xs-6 col-sm-4">
-<form>
+<form id="contactForm">
     <div class="input-group">
-      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <input type="email" class="form-control" id="email" size="50" placeholder="Email Address" required>
       <div class="input-group-btn">
-        <button type="button" class="btn btn-dark">Subscribe</button>
+        <button type="submit" class="btn btn-dark form-submit">Subscribe</button>
+      </form>
       </div>
     </div>
 
@@ -83,7 +84,7 @@ document.getElementById('clockbox').innerHTML=clocktext;
 GetClock();
 setInterval(GetClock,1000);
 </script>
-
+<script src="main.js"></script>
 
 </body>
 </html>
