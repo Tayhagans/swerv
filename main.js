@@ -1,13 +1,12 @@
-/// Initialize Firebase
+// Initialize Firebase
   var config = {
-    apiKey: "AIzaSyDC6LzH1BD1K8Ht4hPsCS4zAkfiYAkN4Hs",
-    authDomain: "swerv-f9f35.firebaseapp.com",
-    databaseURL: "https://swerv-f9f35.firebaseio.com",
-    projectId: "swerv-f9f35",
-    storageBucket: "swerv-f9f35.appspot.com",
-    messagingSenderId: "335647784394"
+    apiKey: "AIzaSyAvz_BEEkyAdy3i7gnBgf-pct0_pJrhYNA",
+    authDomain: "swerv1-bde73.firebaseapp.com",
+    databaseURL: "https://swerv1-bde73.firebaseio.com",
+    projectId: "swerv1-bde73",
+    storageBucket: "",
+    messagingSenderId: "715606523840"
   };
-  
   firebase.initializeApp(config);
   
   // Reference Messages Collection
@@ -51,3 +50,4 @@ function saveMessage(email) {
 	{ email:email
 
 	});
+}
