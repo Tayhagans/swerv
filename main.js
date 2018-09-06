@@ -1,4 +1,4 @@
-// Initialize Firebase
+/// Initialize Firebase
   var config = {
     apiKey: "AIzaSyDC6LzH1BD1K8Ht4hPsCS4zAkfiYAkN4Hs",
     authDomain: "swerv-f9f35.firebaseapp.com",
@@ -9,7 +9,7 @@
   };
   
   firebase.initializeApp(config);
-
+  
   // Reference Messages Collection
   var messagesRef = firebase.database().ref('messages'); 
 
@@ -21,23 +21,24 @@ document.getElementById('contactForm').addEventListener('submit', submitForm);
 // Submit form
 function submitForm(e) {
 	e.preventDefault(); 
-}
+
 
 // Get values
 
-var email = getInputVal ('email');
+var email = getInputVal('email');
 
 // Save message 
 
-saveMessage(email); 
+saveMessage(email ); 
 
 // Clear form 
 
-document.getElementById('contactForm').reset();}
+document.getElementById('contactForm').reset();
+}
 
 // Function to get form values
 
-function getInputVal(id) {
+function getInputVal(id){
 	return document.getElementById(id).value; 
 
 }
@@ -50,4 +51,3 @@ function saveMessage(email) {
 	{ email:email
 
 	});
-} 
