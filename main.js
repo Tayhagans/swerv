@@ -1,3 +1,18 @@
+// Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDC6LzH1BD1K8Ht4hPsCS4zAkfiYAkN4Hs",
+    authDomain: "swerv-f9f35.firebaseapp.com",
+    databaseURL: "https://swerv-f9f35.firebaseio.com",
+    projectId: "swerv-f9f35",
+    storageBucket: "swerv-f9f35.appspot.com",
+    messagingSenderId: "335647784394"
+  };
+  
+  firebase.initializeApp(config);
+
+  // Reference Messages Collection
+  var messagesRef = firebase.database().ref('messages'); 
+
 
 // Listen for form submit 
 
