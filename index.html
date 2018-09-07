@@ -53,10 +53,10 @@
     <div class="input-group">
 
       <input type="email" class="form-control" id="email" required placeholder="Email">
-      <div class="input-group-btn">
+      <!-- <div class="input-group-btn"> -->
         <button type="submit" class="btn btn-dark form-submit">Subscribe</button>
        </div>
-     </div>
+     
       <!-- </div> -->
     </form>
    
@@ -66,6 +66,8 @@
             </div>
 
         </div>
+        <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+<script src="main.js"></script>
 
 <script type="text/javascript">
 var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -86,8 +88,10 @@ document.getElementById('clockbox').innerHTML=clocktext;
 GetClock();
 setInterval(GetClock,1000);
 </script>
-<script src="main.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+
+
+
+
 
 
 </body>
