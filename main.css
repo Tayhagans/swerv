@@ -1,6 +1,11 @@
 body {
 	background-color: #000; 
 	color:#fff;
+	background-image: url("swerv.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain; 
+	background-image-height: auto; 
 	
 }
 
@@ -33,7 +38,7 @@ li a:hover {
 	margin-bottom: 50px; 
 }
 
-.input-group {
+.form-group {
   margin-bottom:10px; 
 }
 
@@ -63,3 +68,4 @@ input {
 	border: 1px solid #fff; 
 	color: #fff; 
 }
+
