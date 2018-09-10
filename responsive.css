@@ -36,6 +36,10 @@ body {
 		margin-top: 100px; 
 	}
 
+	.col-bottom {
+		margin-bottom: 90px; 
+	}
+
 }
 
 /* IPAD */
@@ -55,6 +59,18 @@ body {
 	#clockbox {
 		margin-top: 200px; 
 	}
+
+	.col-bottom {
+		margin-bottom: 305px; 
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+	.col-bottom {
+		margin-bottom: 160px; 
+	}
+
 }
 
 /* ----------- iPad Pro 12.9" ----------- */
@@ -77,7 +93,24 @@ body {
 		font-size: 25px; 
 	}
 
-}
+	.col-bottom {
+		margin-top: 330px; 
+	}
+
+	}
+
+	/*Landscape*/
+
+	@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+     .col-bottom {
+		margin-top: 350px; 
+	}
+
+
+	}
+
+
 
 
 /*LAB TOP BREAK POINT*/
