@@ -30,7 +30,7 @@ pic_1.addEventListener('change', function(e) {
 
 		/*update progress bar*/
 
-			task.on('state_change',
+			task.on('state_changed',
 
 				function progress(snapshot) {
 					var percentage = (snapshot.bytesTransferred / snapshot.totalBytes) * 100; 
