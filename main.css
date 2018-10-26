@@ -73,3 +73,209 @@ input {
 	color: #fff; 
 }
 
+/**************BASH SUBMISSIONS*************************/
+
+
+.bash  {
+	letter-spacing: 15px; 
+/*	color: #FF008F; */
+	color: #7100CC; 
+}
+
+.bash-date{
+	letter-spacing: 15px; 
+}
+
+.bsh-date {
+	color: #7100CC;
+}
+
+.btn-bash {
+/*	background-color: white!important;*/
+background-color: transparent!important; 
+	/*border: none; */
+	border: 2px solid #7100CC;
+	/*color: #000; */
+	font-weight: bolder; 
+	padding: 30px;
+	margin: 45px!important;   
+	text-align: center; 
+}
+
+.btn-bash:hover {
+	border: 6px solid #7100CC;
+	background-color: transparent!important; 
+}
+
+
+/**************CAR REG*************************/
+/*
+
+.cars-body {
+
+	height: 700px; 
+
+}
+*/
+.car-head {
+	color: #7100CC;
+	margin-top: 50px; 
+	margin-bottom: 50px; 
+	letter-spacing: 15px; 
+
+}
+
+.car-reg-p {
+	text-align: justify; 
+	margin-bottom: 0; 
+	font-weight: lighter;
+	color: lightgrey; 
+}
+
+.img-link{
+	font-weight: lighter;
+	color: lightgrey; 
+	margin-top: 20px; 
+}
+
+.carpp{
+	font-weight: bolder;
+}
+
+.f-control, .f-group {
+	border-top: medium none !important; 
+	border-left: medium none !important; 
+	border-right: medium none !important; 
+	box-shadow: none !important; 
+}
+
+input, textarea {
+	outline: none; 
+	box-shadow: none !important; 
+}
+
+.car-img {
+	width: 250px;
+	margin-top: 3px; 
+	margin-bottom: 10px;
+
+
+	/*background-color: pink!important;*/
+}
+
+
+.car-reg-submit {
+	margin-top: 10px; 
+	margin-right: 150px; 
+	margin-left: 150px; 
+}
+
+.car-img-submit {
+/*	color: #7100CC;
+	border-radius: 3px!important; */
+	display: none; 
+}
+
+/*input[type="file"] {
+	display: none; 
+}*/
+
+::-webkit-file-upload-button {
+
+  background-color: transparent;
+  color: #fff;
+  padding: 1em;
+  border-radius: 5px; 
+  border: 1px solid #7100CC; 
+  cursor: pointer; 
+
+}
+
+::-webkit-file-upload-button:hover {
+	border: 3px solid #7100CC; 
+}
+
+/*.car-uploadd {
+	border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}*/
+
+/*.car-img input[type="file"] {
+	-webkit-appearance:none;
+	position: absolute;
+}*/
+
+/*btn-upload {
+	position: relative !important;
+	overflow: hidden!important;
+	display: inline-block!important;
+}
+
+.btn-upload input [type=file] {
+	position: absolute!important; 
+	opacity: 0!important; 
+	z-index: 0!important; 
+	max-width: 100%!important; 
+	height: 100% !important; 
+	display: block !important; 
+}*/
+
+/***********HIDE NO FILE CHOOSE**********/
+
+/*input[type="file"] {
+	color: transparent;
+}*/
+
+
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px; 
+	opacity: 0; 
+	overflow: hidden;
+	position: absolute;
+	z-index: -1; 
+}
+
+.inputfile + label {
+	width: 150px;  
+	margin-top: 20px; 
+	background-color: transparent;
+  color: #fff;
+  padding: 1em;
+  border-radius: 5px; 
+  border: 1px solid #7100CC; 
+  cursor: pointer; 
+}
+
+.inputfile:focus + label, 
+.inputfile + label:hover {
+	border: 3px solid #7100CC; 
+}
+
+
+
+
+/***********Progress Box *************************************************/
+
+#uploader {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 50%; 
+	margin-bottom: 10px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
