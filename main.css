@@ -269,7 +269,12 @@ input, textarea {
 
 
 
-
+#uploader_1, #uploader_2, #uploader_3 {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 50%; 
+	margin-bottom: 10px;
+}
 
 
 

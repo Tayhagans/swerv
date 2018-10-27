@@ -10,23 +10,31 @@
   firebase.initializeApp(config);
   /*****GET ELEEMENTS**********/
 
-var uploader = document.getElementById('uploader');
-var pic_1 = document.getElementById('pic_1'); 
 
-/****LISTEN FOR FILE SELECTION****/
+  document.getElementById('parent_upload').addEventListener('change', function(e) {
 
-pic_1.addEventListener('change', function(e) {
+  		var uploader = document.getElementById('uploader'); 
+  		
 
 	/*Get file*/
-		var file = e.target.files[0]; 
+		var file = e.target.files[0];
+
+		 if (e.target && e.target.matches('.car-img')) {
 
 		/*create storage ref*/
 
 		var storageRef = firebase.storage().ref('car_pics/' + file.name); 
 
-		/*upload files*/
+	
+
+	
+
+
+	/*upload files*/
 
 		var task = storageRef.put(file); 
+
+	}
 
 		/*update progress bar*/
 
@@ -35,6 +43,7 @@ pic_1.addEventListener('change', function(e) {
 				function progress(snapshot) {
 					var percentage = (snapshot.bytesTransferred / snapshot.totalBytes) * 100; 
 					uploader.value = percentage; 
+					
 				}, 
 
 				function error(err) {
@@ -48,7 +57,169 @@ pic_1.addEventListener('change', function(e) {
 
 				); 
 
+
 	});
+
+   /*****GET ELEEMENTS**********/
+
+
+  document.getElementById('parent_upload').addEventListener('change', function(e) {
+
+  		
+  		var uploader_1 = document.getElementById('uploader_1')
+
+	/*Get file*/
+		var file = e.target.files[0];
+
+		 if (e.target && e.target.matches('.car-img_1')) {
+
+		/*create storage ref*/
+
+		var storageRef = firebase.storage().ref('car_pics/' + file.name); 
+
+	
+
+	
+
+
+	/*upload files*/
+
+		var task = storageRef.put(file); 
+
+	}
+
+		/*update progress bar*/
+
+			task.on('state_changed',
+
+				function progress(snapshot) {
+					var percentage = (snapshot.bytesTransferred / snapshot.totalBytes) * 100; 
+					uploader_1.value = percentage; 
+					
+				}, 
+
+				function error(err) {
+
+				}, 
+
+				function complete() {
+
+				}
+
+
+				); 
+
+
+	});
+
+
+document.getElementById('parent_upload').addEventListener('change', function(e) {
+
+  		
+  		var uploader_2 = document.getElementById('uploader_2')
+
+	/*Get file*/
+		var file = e.target.files[0];
+
+		 if (e.target && e.target.matches('.car-img_2')) {
+
+		/*create storage ref*/
+
+		var storageRef = firebase.storage().ref('car_pics/' + file.name); 
+
+	
+
+	
+
+
+	/*upload files*/
+
+		var task = storageRef.put(file); 
+
+	}
+
+		/*update progress bar*/
+
+			task.on('state_changed',
+
+				function progress(snapshot) {
+					var percentage = (snapshot.bytesTransferred / snapshot.totalBytes) * 100; 
+					uploader_2.value = percentage; 
+					
+				}, 
+
+				function error(err) {
+
+				}, 
+
+				function complete() {
+
+				}
+
+
+				); 
+
+
+	});
+
+document.getElementById('parent_upload').addEventListener('change', function(e) {
+
+  		
+  		var uploader_3 = document.getElementById('uploader_3')
+
+	/*Get file*/
+		var file = e.target.files[0];
+
+		 if (e.target && e.target.matches('.car-img_3')) {
+
+		/*create storage ref*/
+
+		var storageRef = firebase.storage().ref('car_pics/' + file.name); 
+
+	
+
+	
+
+
+	/*upload files*/
+
+		var task = storageRef.put(file); 
+
+	}
+
+		/*update progress bar*/
+
+			task.on('state_changed',
+
+				function progress(snapshot) {
+					var percentage = (snapshot.bytesTransferred / snapshot.totalBytes) * 100; 
+					uploader_3.value = percentage; 
+					
+				}, 
+
+				function error(err) {
+
+				}, 
+
+				function complete() {
+
+				}
+
+
+				); 
+
+
+	});
+
+
+
+
+
+// var uploader = document.getElementById('uploader');
+// var pic_1 = document.getElementById('pic_1'); 
+
+/****LISTEN FOR FILE SELECTION****/
+
 
   
   
