@@ -203,10 +203,14 @@ document.getElementById('parent_upload').addEventListener('change', function(e) 
 
 				function complete() {
 
+
+
 				}
 
 
 				); 
+
+
 
 
 	});
@@ -255,7 +259,10 @@ saveMessage(first_name, last_name, email, tel, mod, instagram, pic_1, pic_2, pic
 // Clear form 
 
 document.getElementById('car-reg-form').reset();
+
 }
+
+
 
 // Function to get form values
 
@@ -281,4 +288,8 @@ pic_3: pic_3,
 pic_4: pic_4,
 
 });
+
+//reload page 
+
+location.reload();
 }
