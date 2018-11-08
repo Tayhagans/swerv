@@ -11,6 +11,32 @@ body {
 
 }
 
+.body-car {
+	/*background-image: url("yellow_dark.jpg");*/
+	background-image: url("yellow_car.jpg");
+	background-size: 550px; 
+	
+	/*background-image: url("newyellow.jpg");*/
+
+/*	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg");*/
+
+}
+
+
+
+.body-art {
+	background-image: url("artist copy.jpg"); 
+
+	 background-size: 350px 350px;
+
+	 	/*background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("FlyerMaker.png"); background-size:600px 600px; display: cover; background-repeat: */ 
+}
+
+.body-food {
+	background-image: url("food.png");
+	background-size: 400px; 
+}
+
 .logo-img {
 	height: auto; 
 	width: 350px; 
@@ -73,13 +99,21 @@ input {
 	color: #fff; 
 }
 
+ .addressp {
+ 	font-weight: bolder; 
+ 	color: #fff; 
+ 	text-align: justify;
+ 	text-justify: inter-word;
+	margin-top: 30px; 
+}
+
 /**************BASH SUBMISSIONS*************************/
 
 
 .bash  {
 	letter-spacing: 15px; 
 /*	color: #FF008F; */
-	color: #7100CC; 
+	color: #FF0089; 
 }
 
 .bash-date{
@@ -87,14 +121,14 @@ input {
 }
 
 .bsh-date {
-	color: #7100CC;
+	color: #FF0089;
 }
 
 .btn-bash {
 /*	background-color: white!important;*/
 background-color: transparent!important; 
 	/*border: none; */
-	border: 2px solid #7100CC;
+	border: 2px solid #fff;
 	/*color: #000; */
 	font-weight: bolder; 
 	padding: 30px;
@@ -103,7 +137,7 @@ background-color: transparent!important;
 }
 
 .btn-bash:hover {
-	border: 6px solid #7100CC;
+	border: 6px solid #FF0089;
 	background-color: transparent!important; 
 }
 
@@ -117,15 +151,28 @@ background-color: transparent!important;
 
 }
 */
+.swrv-logo {
+height: auto; 
+	width: 250px; 
+	margin-top: 25px; 
+}
+
 .car-head {
-	color: #7100CC;
+	color: #fff;
 	margin-top: 50px; 
-	margin-bottom: 50px; 
-	letter-spacing: 15px; 
+	margin-bottom: 20px; 
+	letter-spacing: 11px; 
+	font-size: 15px; 
 
 }
 
+.car-head-l {
+	/*color: #FF0089;
+	font-size: 80px; */
+}
+
 .car-reg-p {
+	font-size: 15px; 
 	text-align: justify; 
 	margin-bottom: 0; 
 	font-weight: lighter;
@@ -140,6 +187,7 @@ background-color: transparent!important;
 
 .carpp{
 	font-weight: bolder;
+
 }
 
 .f-control, .f-group {
@@ -154,6 +202,10 @@ input, textarea {
 	box-shadow: none !important; 
 }
 
+.flyer_img {
+	opacity: .5; 
+}
+
 .car-img {
 	width: 250px;
 	margin-top: 3px; 
@@ -165,9 +217,21 @@ input, textarea {
 
 
 .car-reg-submit {
-	margin-top: 10px; 
-	margin-right: 150px; 
-	margin-left: 150px; 
+	margin-top: 80px; 
+	margin-right: 50px; 
+	margin-left: 50px; 
+	letter-spacing: 5px;  
+	border-radius: 0!important;
+}
+
+.car-reg-submit_1 {
+	margin-right: 0; 
+	margin-left: 0; 
+	margin-top: 50px; 
+}
+
+.car-reg-submit:hover {
+	border: 3px solid #FF0089;
 }
 
 .car-img-submit {
@@ -246,17 +310,51 @@ input, textarea {
   color: #fff;
   padding: 1em;
   border-radius: 5px; 
-  border: 1px solid #7100CC; 
+  border: 1px solid #FFF; 
   cursor: pointer; 
 }
 
 .inputfile:focus + label, 
 .inputfile + label:hover {
-	border: 3px solid #7100CC; 
+	border: 3px solid #FF0089; 
 }
 
+/***********Artist***************/
 
 
+
+.artist-reg-submit {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+   /* padding: 5px;*/ /* This creates some space between the element and the border. */
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-top: 210px; 
+    font-size: 20px; 
+
+}
+
+.artist-reg-submit:hover {
+	border: 3px solid #fff!important;
+}
+
+/***********Vendors***************/
+
+.vendors-reg-submit {
+	content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding: 5px; /* This creates some space between the element and the border. */
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-top: 100px; 
+    font-size: 25px;
+}
+
+.vendors-reg-submit:hover {
+	border: 3px solid #fff;
+}
 
 /***********Progress Box *************************************************/
 
@@ -277,9 +375,44 @@ input, textarea {
 }
 
 
+/*Flyer*/
 
+/*.fill .flyer_img {
+	object-fit: contain; 
+	width: 600px; 
+	height: 600px; 
+	/*opacity: .6; */
+/*}*/
 
+/*.fill {
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}*/
+.fill img {
+	margin-top: 35px; 
+/*    flex-shrink: 0;
+    width: auto;*/
+   /* object-fit: contain; 
+    height: 200px;*/
 
+}
+
+.panel-footer {
+	height: 50px;
+    background-color: #fff; 
+    font-size: smaller; 
+    border-top: 1px solid #7100CC; 
+    margin-top: 120px; 
+    color: #000; 
+}
+
+.panel-footer p {
+	margin-top: 10px; 
+	font-size: 14px; 
+/*	margin-bottom: 20px;*/ 
+}
 
 
 

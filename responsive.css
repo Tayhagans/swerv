@@ -115,7 +115,18 @@ body {
 
 /*LAB TOP BREAK POINT*/
 
+
+
 @media screen and (min-width: 769px) {
+
+	.swrv-logo {
+	width: 400px;  
+}
+
+.body-car {
+	
+	background-size: 2000px; 
+}
 
 	.logo-img {
 	width: 700px; 
@@ -136,6 +147,32 @@ body {
     font-size: 40px!important; 
   }
 
+  .body-car {
+/*	background-image: url("yellow_dark.jpg");*/
+	
+	/*background-image: url("newyellow.jpg");*/
+	background-size: 1550px 1320px!important;
+	 
+	background-repeat: no-repeat!important;
+	/*background-repeat: no-repeat!important; */
+
+	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg"); 
+
+}
+
+.body-art {
+	background-image: url("artist copy.jpg"); 
+
+	 background-size: 600px;
+
+	 	/*background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("FlyerMaker.png"); background-size:600px 600px; display: cover; background-repeat: */ 
+}
+
+.car-head {
+	font-size: 20px; 
+}
+
+
 }
 
 /*************************Desk TOP Break Point **************************************/
@@ -153,7 +190,10 @@ body {
 	li a {
 	font-size: 20px; 
 }
-  
+
+
+
+
 }
 
 /*************************Large Desk Top Break Point **************************************/
