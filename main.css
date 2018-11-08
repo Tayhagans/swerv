@@ -13,8 +13,13 @@ body {
 
 .body-car {
 	/*background-image: url("yellow_dark.jpg");*/
-	background-image: url("yellow_car.jpg");
-	background-size: 550px; 
+	
+	background-size: contain!important; 
+	background-repeat: no-repeat!important;
+	 
+
+		background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg"); 
+
 	
 	/*background-image: url("newyellow.jpg");*/
 
@@ -25,9 +30,9 @@ body {
 
 
 .body-art {
-	background-image: url("artist copy.jpg"); 
+	background-image: url("artist-copy.jpg"); 
 
-	 background-size: 350px 350px;
+	 background-size: 350px;
 
 	 	/*background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("FlyerMaker.png"); background-size:600px 600px; display: cover; background-repeat: */ 
 }
