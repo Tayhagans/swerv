@@ -14,8 +14,9 @@ body {
 .body-car {
 	/*background-image: url("yellow_dark.jpg");*/
 	
-	background-size: contain!important; 
+	background-size: 700px 1650px!important; 
 	background-repeat: no-repeat!important;
+	background-attachment: fixed!important;
 	 
 
 		background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg"); 
@@ -34,12 +35,15 @@ body {
 
 	 background-size: 350px;
 
+	 background-attachment: fixed; 
+
 	 	/*background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("FlyerMaker.png"); background-size:600px 600px; display: cover; background-repeat: */ 
 }
 
 .body-food {
 	background-image: url("food.png");
 	background-size: 400px; 
+	background-attachment: fixed;
 }
 
 .logo-img {
@@ -335,7 +339,7 @@ input, textarea {
     width: 50%; /* Change this to whatever width you want. */
    /* padding: 5px;*/ /* This creates some space between the element and the border. */
     /* This creates the border. Replace black with whatever color you want. */
-    margin-top: 210px; 
+    margin-top: 70px; 
     font-size: 20px; 
 
 }

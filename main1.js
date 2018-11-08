@@ -1,11 +1,11 @@
 // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyDgyz2ggRK3x1MLIBdUrUMI0B7Xlb-RQJc",
-    authDomain: "newtest-a1274.firebaseapp.com",
-    databaseURL: "https://newtest-a1274.firebaseio.com",
-    projectId: "newtest-a1274",
-    storageBucket: "newtest-a1274.appspot.com",
-    messagingSenderId: "925333825245"
+    apiKey: "AIzaSyAb-0wkWrG3SaJZaeL34s8RVZfL_Fna47I",
+    authDomain: "swerv-car-reg.firebaseapp.com",
+    databaseURL: "https://swerv-car-reg.firebaseio.com",
+    projectId: "swerv-car-reg",
+    storageBucket: "swerv-car-reg.appspot.com",
+    messagingSenderId: "356521316761"
   };
   firebase.initializeApp(config);
   /*****GET ELEEMENTS**********/
