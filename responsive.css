@@ -191,7 +191,31 @@ body {
 	font-size: 20px; 
 }
 
+.artist-reg-submit {
+	margin-top: 330px; 
 
+}
+
+.body-art {
+	background-size: 700px; 
+}
+
+.swrv-logo {
+	width: 500px; 
+	margin-top: 35px; 
+}
+
+.body-food {
+	background-size: 600px; 
+}
+
+.vendors-reg-submit {
+	margin-top: 150px; 
+}
+
+.body-car {
+	background-size: 1970px; 
+}
 
 
 }
