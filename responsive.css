@@ -214,7 +214,7 @@ body {
 }
 
 .body-car {
-	background-size: 1970px; 
+	background-size: 1970px!important; 
 }
 
 .ven-logo {
