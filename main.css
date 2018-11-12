@@ -1,4 +1,4 @@
-/*body {
+body {
 	background-color: #000; 
 	color:#fff;
 
@@ -10,10 +10,10 @@
 background-attachment: fixed; 
 
 }
-*/
 
 
-body:before {
+
+/*body:before {
 	 content: "";
   display: block;
   background-image: url("sky1.jpg");
@@ -29,7 +29,7 @@ body:before {
   background-size: cover;
   background-position: center!important;
 }
-
+*/
 
 
 .body-car:before {
