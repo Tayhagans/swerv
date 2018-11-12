@@ -18,6 +18,10 @@ background-attachment: fixed;
 
 }*/
 
+.artist-reg-pp {
+	text-align: center!important;
+	color: #fff!important; 
+}
 
 
 .body-main:before {
@@ -454,7 +458,7 @@ input, textarea {
 #uploader {
 	-webkit-appearance: none;
 	appearance: none;
-	width: 50%; 
+	width: 100%; 
 	margin-bottom: 10px; 
 }
 
@@ -463,7 +467,7 @@ input, textarea {
 #uploader_1, #uploader_2, #uploader_3 {
 	-webkit-appearance: none;
 	appearance: none;
-	width: 50%; 
+	width: 100%; 
 	margin-bottom: 10px;
 }
 
