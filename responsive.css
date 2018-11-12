@@ -162,6 +162,9 @@ body {
 }
 
 .body-art {
+/* background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("artist-copy.jpg");*/
+
+
 	background-image: url("artist-copy.jpg"); 
 
 	 background-size: 600px;
