@@ -13,8 +13,9 @@ body {
 
 .body-car {
 	/*background-image: url("yellow_dark.jpg");*/
-	background-size: contain!important; 
+	background-size: cover!important; 
 	background-color: #000!important; 
+	background-position: center!important;
 	/*background-size: 700px 1650px!important;*/ 
 	background-repeat: no-repeat!important;
 	background-attachment: fixed!important;
