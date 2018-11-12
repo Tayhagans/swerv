@@ -1,4 +1,11 @@
 body {
+	  background-image-height: auto; 
+	  background-repeat: no-repeat;
+	  	background-position: center!important;
+	  	background-color: #000; 
+}
+
+.body-main {
 	background-color: #000; 
 	color:#fff;
 
@@ -36,6 +43,7 @@ background-attachment: fixed;
   content: "";
   display: block;
   position: fixed;
+
   left: 0;
   top: 0;
   width: 100%;
@@ -266,6 +274,11 @@ height: auto;
 .carpp{
 	font-weight: bolder;
 
+}
+
+.car-pp {
+	color: #fff; 
+	font-weight: bolder;
 }
 
 ::placeholder {

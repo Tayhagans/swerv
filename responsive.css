@@ -136,7 +136,7 @@ body {
 
 	}
 
-	body {
+	.body-main {
 	background-image: url("swrv.jpg");
 }
 
@@ -171,7 +171,7 @@ body {
 
 	background-image: url("artist-copy.jpg"); 
 
-	 background-size: 600px;
+	 background-size: 600px!important;
 
 	 	/*background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("FlyerMaker.png"); background-size:600px 600px; display: cover; background-repeat: */ 
 }
