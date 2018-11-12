@@ -11,24 +11,41 @@ body {
 
 }
 
-.body-car {
-	/*background-image: url("yellow_dark.jpg");*/
-	background-size: cover!important; 
+.body-car:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg");
+/*  background: url(photos/2452.jpg) no-repeat center center;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center!important;
+}
+
+/*.body-car {*/
+/*	background-size: cover!important; 
+	background-image: height!important;
 	background-color: #000!important; 
 	background-position: center!important;
-	/*background-size: 700px 1650px!important;*/ 
 	background-repeat: no-repeat!important;
 	background-attachment: fixed!important;
 	 
 
 		background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg"); 
-
+*/
 	
 	/*background-image: url("newyellow.jpg");*/
 
 /*	background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg");*/
 
-}
+/*}*/
 
 
 
