@@ -359,7 +359,7 @@ input, textarea {
     padding: 5px; /* This creates some space between the element and the border. */
     /* This creates the border. Replace black with whatever color you want. */
     margin-top: 100px; 
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .vendors-reg-submit:hover {
