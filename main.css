@@ -1,15 +1,36 @@
-body {
+/*body {
 	background-color: #000; 
 	color:#fff;
-	/*background-image: url("swerv.jpg");*/
+
 	background-image: url("sky1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover; 
 	background-image-height: auto; 
-
+background-attachment: fixed; 
 
 }
+*/
+
+
+body:before {
+	 content: "";
+  display: block;
+  background-image: url("sky1.jpg");
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center!important;
+}
+
+
 
 .body-car:before {
   content: "";
@@ -135,8 +156,18 @@ input {
 }
 
 #clockbox {
+	color: #fff; 
 	margin-top: 70px; 
 }
+
+#demo {
+	color: #fff; 
+}
+
+.clickBelow {
+	color: #fff!important;
+}
+
 
 
 .btn {

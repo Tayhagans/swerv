@@ -136,7 +136,7 @@ body {
 
 	}
 
-	body {
+	body:before {
 	background-image: url("swrv.jpg");
 }
 
