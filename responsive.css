@@ -148,6 +148,10 @@ body {
     font-size: 40px!important; 
   }
 
+  .fab:hover {
+  	font-size: 50px!important; 
+  }
+
   .body-car {
 /*	background-image: url("yellow_dark.jpg");*/
 	
