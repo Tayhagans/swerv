@@ -136,10 +136,14 @@ body {
 
 	}
 
-	.body-main {
+/*	.body-main {
 	background-image: url("swrv.jpg");
 }
+*/
 
+.body-main:before {
+	background-image: url("swrv.jpg");
+}
 	.nav {
 		display: flex; 
 	} 
