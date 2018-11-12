@@ -66,7 +66,6 @@ background-attachment: fixed;
 	background-repeat: no-repeat!important;
 	background-attachment: fixed!important;
 	 
-
 		background: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) ), url("yellow_car.jpg"); 
 */
 	
@@ -91,9 +90,7 @@ background-repeat: no-repeat;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: center!important;
-
 	 background-size: 350px;
-
 }*/
 
 .body-art {
@@ -230,11 +227,8 @@ background-color: transparent!important;
 
 /**************CAR REG*************************/
 /*
-
 .cars-body {
-
 	height: 700px; 
-
 }
 */
 .swrv-logo {
@@ -250,6 +244,10 @@ height: auto;
 	letter-spacing: 11px; 
 	font-size: 15px; 
 
+}
+
+.car-links {
+	color: #fff; 
 }
 
 .car-head-l {
@@ -372,7 +370,6 @@ input, textarea {
 	overflow: hidden!important;
 	display: inline-block!important;
 }
-
 .btn-upload input [type=file] {
 	position: absolute!important; 
 	opacity: 0!important; 
@@ -514,7 +511,3 @@ input, textarea {
 .panel-footer img {
 	margin-left: 3px; 
 }
-
-
-
-
