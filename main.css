@@ -157,6 +157,7 @@ input {
 
 
 .bash  {
+	text-align: center!important;
 	letter-spacing: 15px; 
 /*	color: #FF008F; */
 	color: #FF0089; 
