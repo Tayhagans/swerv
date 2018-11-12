@@ -13,8 +13,9 @@ body {
 
 .body-car {
 	/*background-image: url("yellow_dark.jpg");*/
-	
-	background-size: 700px 1650px!important; 
+	background-size: contain!important; 
+	background-color: #000!important; 
+	/*background-size: 700px 1650px!important;*/ 
 	background-repeat: no-repeat!important;
 	background-attachment: fixed!important;
 	 
@@ -410,7 +411,7 @@ input, textarea {
 
 .panel-footer {
 	height: 50px;
-    background-color: #fff; 
+    background-color: #f5f5f5; 
     font-size: smaller; 
     border-top: 1px solid #7100CC; 
     margin-top: 120px; 
@@ -419,8 +420,13 @@ input, textarea {
 
 .panel-footer p {
 	margin-top: 10px; 
-	font-size: 14px; 
+	font-size: 14px;
+	text-align: left;  
 /*	margin-bottom: 20px;*/ 
+}
+
+.panel-footer img {
+	margin-left: 3px; 
 }
 
 
