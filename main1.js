@@ -256,12 +256,22 @@ var pic_4 = getInputVal('pic_4');
 
 saveMessage(first_name, last_name, email, tel, mod, instagram, pic_1, pic_2, pic_3, pic_4);
 
+// document.getElementById('car-reg-form').reset();
+
+// }
+
+// Show alert 
+document.querySelector('.alert').style.display = "block";
+
+//Hide alert after 3 seconds
+setTimeout(function(){
+    document.querySelector('.alert').style.display = "none";
+},3000);
+
+
 // Clear form 
-
 document.getElementById('car-reg-form').reset();
-
 }
-
 
 
 // Function to get form values
@@ -290,6 +300,9 @@ pic_4: pic_4,
 });
 
 //reload page 
+setTimeout(function(){
+	location.reload();
+},4000);
 
-location.reload();
+// location.reload();
 }

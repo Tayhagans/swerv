@@ -283,6 +283,19 @@ height: auto;
 	font-weight: bolder;
 }
 
+.alert{
+	display: none; 
+	margin-top: 10px; 
+	font-size: 16px; 
+    text-align: center; 
+    padding: 10px; 
+    background-color: transparent; 
+   /* border: 1px solid #FF0089;  */
+    color: white;
+    margin-bottom: 10px; 
+    /*display: none; */
+} 
+
 ::placeholder {
 	color: #fff!important; 
 }
