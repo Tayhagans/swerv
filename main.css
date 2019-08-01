@@ -199,13 +199,13 @@ input {
 
 .bash  {
 	text-align: center!important;
-	letter-spacing: 11px; 
+	letter-spacing: 10px; 
 /*	color: #FF008F; */
 	color: #FF0089; 
 }
 
 .bash-date{
-	letter-spacing: 15px; 
+	/*letter-spacing: 9px; */
 	color: #fff; 
 }
 
