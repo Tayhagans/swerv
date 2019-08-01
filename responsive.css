@@ -188,6 +188,14 @@ body {
 	font-size: 25px; 
 }
 
+.bash {
+	letter-spacing: 15px; 
+}
+
+.clickBelow  {
+	font-size: 1.2rem;
+}
+
 
 }
 
